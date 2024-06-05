@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar
+{
+  background-color: black !important;
+}
+
+.nav-link
+{
+  color: white !important;
+}
+
+.navbar-brand
+{
+  color: white !important;
+  border: 2px solid white;
+  padding: 3px;
+}
+
+.navbar-nav
+{
+  margin-left: auto !important;
+}
+
+.smallimg
+{
+  height: 200px;
+  width: 100% !important;
+  border-radius: 8px !important;
+}
+
+h1{
+  font-size: 25px !important;
+  font-weight: bold;
+}
+
+.btn
+{
+  background-color: black !important;
+  color: white !important;
+  box-shadow: none !important;
+}
+
+.bs
+{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: 20px !important;
+ border-radius: 5px !important;  
+ padding: 30px !important;
+}
+
+.bigimg{
+  height: 400px;
+  border-radius: 8px;
+}
+
+.from-control
+{
+  width: 45vw;
+}
+
+input{
+  box-shadow: none !important;
+  margin-top: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+
+h2{
+  font-size: 30px !important;
+  padding: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.decoration
+{
+  text-decoration: none;
+}
+
+.bs:hover
+{
+  box-shadow: 12px 12px 15px black;
+    transition: 1s;
+}
+                           /* footer */
+.footer {
+  margin: auto;
+  background-color: black;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  color: white;
+  margin: auto;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 1275px) {
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    color: white;
+  }
+}
+.sec-
+.question {
+  padding: 34px 0;
+}
+.footer a {
+  color: white;
+  font-size: 14px;
+ padding: 5px 0 0 15px;
+  /* text-decoration: none; */
+} 
+
+.footer-items {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; 
+}
+
+.bookroom
+{
+ margin: 30px  0 20px 140px;
+ padding: 10px;
+}
+
+
+.card:hover
+{
+  box-shadow: 12px 12px 15px black;
+    transition: 1s;
+    background-color: antiquewhite;
+}
+
+.Admin-h1{
+  margin:50px;
+  font-weight: bolder;
+}
